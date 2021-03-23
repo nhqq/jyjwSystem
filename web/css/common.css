@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+    width: 115px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+a:focus{
+    text-decoration: none;
+    width: 115px;
+    background: #7F2AFF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+a:hover{
+    text-decoration: none;
+    width: 115px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+th{
+    text-align: center;
+}
+td{
+    line-height:60px;
+    text-align: center;
+}

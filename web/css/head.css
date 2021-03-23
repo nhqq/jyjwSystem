@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.header{
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    background: url("../images/head.png") 30px center ;
+}
+.header h1{
+    float: left;
+    color: #fff;
+    font-size: 22px;
+    padding-left:80px;
+    text-shadow: 2px 1px #000;
+
+}
+.headerR{
+    float: right;
+    color: #fff;
+    margin-right: 50px;
+}
+.headerR p{
+    font-weight: bold;
+    display: inline-block;
+}
+.headerR a{
+    width: 50px;
+    height: 28px;
+    display: inline-block;
+    border: 1px solid #679e43;
+    background: linear-gradient(to bottom,#baf076,#a2d866,#9cd055,#8dc838,#8bc93a);
+    line-height: 28px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+}
+.headerR a:hover,.headerR a:active{
+    border: 1px solid #192b02;
+    border-radius: 4px;
+    font-weight: bold;
+    background: linear-gradient(to bottom,#70b21c,#5c9613,#47740e,#3b6209,#2b4906);
+}
+
+.functionList{
+    border-top: 1px solid #c2ccd5;
+    display: flex;  /*变为弹性盒模型*/
+    display: -webkit-flex;
+    background: #fff;
+}
+.left{
+    width: 200px;
+    background: url("../images/leftBg.png") 0 0 repeat;
+    margin-right: 10px;
+    min-height: 641px;
+}
+.left h2{
+    width: 140px;
+    height: 30px;
+    border-radius: 4px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #60b3e7;
+    margin: 10px  auto;
+    box-shadow:4px 4px rgba(212,212,212,0.7);
+}
+.list{
+    margin: 0 10px;
+    font-weight: bold;
+}
+.list li{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(212,212,212,0.5) ;
+}
+.list li:hover{
+    background-color: #acd5f5;
+    border-radius: 4px;
+}
+.list li:active{
+    background-color: #92c609;
+    border-radius: 4px;
+}
+.list a{
+    color: #0042a8;
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+}
+.foot{
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: url("../images/head.png") 30px center ;
+}
+.right{
+    width: 86%;
+    float: left;
+}
